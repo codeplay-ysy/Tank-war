@@ -1,14 +1,6 @@
 import pygame
 import random
 
-"""
-作者:嘟粥
-修改时间:2022.12.02
-模块描述：
-该模块是道具类
-道具类继承了pygame的精灵类，从而实现道具的相关功能
-"""
-
 
 # 此类为道具类 里面包含7种道具的类（继承了pygame的精灵类）
 class Food(pygame.sprite.Sprite):
