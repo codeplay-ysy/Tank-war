@@ -2,14 +2,6 @@ import pygame
 import random
 import bulletClass
 
-"""
-作者:嘟粥
-修改时间:2022.12.02
-模块描述：
-该模块是敌方坦克类
-该类组合了子弹类，因为坦克都有子弹嘛
-敌方坦克类继承了pygame的精灵类，从而实现敌方坦克的相关功能
-"""
 
 
 class EnemyTank(pygame.sprite.Sprite):
